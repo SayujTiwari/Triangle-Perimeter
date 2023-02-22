@@ -1,3 +1,4 @@
+
 import math
 
 # Function to calculate distance between two points
@@ -26,7 +27,7 @@ c = dist(x1, y1, x3, y3)
 perimeter = a + b + c
 
 # Output the side lengths and perimeter of the triangle
-print("Side a: ", a)
-print("Side b: ", b)
-print("Side c: ", c)
-print("Perimeter: ", perimeter)
+print(f"Side a: {a}")
+print(f"Side b: {b}")
+print(f"Side c: {c}")
+print(f"Perimeter: {perimeter}")
